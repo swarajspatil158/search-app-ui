@@ -6,9 +6,17 @@ import trend3 from "../assets/trends/trend3.png";
 import trend4 from "../assets/trends/trend4.png";
 import trend5 from "../assets/trends/trend5.png";
 
-const LatestTrends = () => {
+const LatestTrends = ({ setShowData }) => {
   return (
     <div className={`${styles.drawer}`}>
+      <div
+        className={`${styles.hide}`}
+        onClick={() => {
+          setShowData(false);
+        }}
+      >
+        Hide
+      </div>
       <div className={`${styles.header}`}>Latest Trends</div>
       <div className={`${styles.trendFlex}`}>
         <div className={`${styles.trend}`}>
