@@ -1,0 +1,17 @@
+$assetsPath: "../assets";
+
+@mixin bg-image($image-width, $image-height) {
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  position: relative;
+  background-position: center center;
+  filter: contrast(100%);
+  background-color: rgba(215, 224, 255, 0.26);
+  background-blend-mode: screen;
+}
+
+.mainBg {
+  background-image: url("../assets/main-bg.jpg");
+  @include bg-image(100vw, 100vh);
+}
