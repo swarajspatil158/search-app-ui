@@ -3,10 +3,10 @@ import styles from "./searchBarStyle.module.scss";
 import searchIcon from "../assets/searchIcon.png";
 import { Link } from "react-router-dom";
 
-const SearchBar = ({ setShowData, showData }) => {
+const SearchBar = ({ setShowData, showData, color, className = "" }) => {
   return (
     <div>
-      <div className={`${styles.search}`}>
+      <div className={`${styles.search} ${className}`}>
         <input
           onClick={() => {
             setShowData(true);

@@ -21,7 +21,6 @@ const LatestTrends = ({ setShowData }) => {
       <div className={`${styles.trendFlex}`}>
         <div className={`${styles.trend}`}>
           <div className={`${styles.trendA}`}>
-            {" "}
             <img src={trend1} alt="trend1" />
           </div>
           <div className={`${styles.trendB}`}>Shirt with puffed sleeves</div>

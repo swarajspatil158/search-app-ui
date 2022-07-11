@@ -1,0 +1,60 @@
+.drawer {
+  box-sizing: border-box;
+  position: relative;
+  margin: 10rem auto;
+  padding: 2rem 2rem;
+  width: 90vw;
+  max-width: 2000px;
+
+  background: #ffffff;
+  // box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  overflow-y: scroll;
+  color: #000000;
+  animation: fadeIn 0.5s;
+
+  .trendFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+
+    .trend {
+      display: flex;
+      flex-direction: column;
+      .trendA {
+        width: 239px;
+        height: 325px;
+
+        border-radius: 10px;
+        background: transparent;
+        transition: 0.2s;
+        &:hover {
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+        }
+        img {
+          width: 239px;
+          height: 325px;
+          object-fit: cover;
+          border-radius: 4px;
+        }
+      }
+      .trendB {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .price {
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 24px;
+        color: #6d84ff;
+      }
+    }
+  }
+}

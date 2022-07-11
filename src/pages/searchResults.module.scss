@@ -1,0 +1,20 @@
+.tweakBorder {
+  border: 0.686747px solid rgba(0, 0, 0, 0.5);
+  // position: absolute;
+  max-width: 628.37px;
+  max-height: 57px;
+  // left: 442px;
+  top: 40px;
+  img {
+    display: none;
+  }
+}
+.searchAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultPage {
+  position: relative;
+}
