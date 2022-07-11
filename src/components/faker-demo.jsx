@@ -17,11 +17,12 @@ export default function FakerDemo() {
         price: faker.commerce.price(500, 3000, 0, "Rs."),
       };
     }
-    Array.from({ length: 30 }).forEach(() => {
+    Array.from({ length: 20 }).forEach(() => {
       arr.push(createRandomUser());
     });
     setList(arr);
   }, []);
+  // console.log(list);
   return (
     <div className={`${styles.drawer}`}>
       <div className={`${styles.trendFlex}`}>
