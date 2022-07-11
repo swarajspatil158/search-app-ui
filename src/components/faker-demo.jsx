@@ -28,6 +28,7 @@ export default function FakerDemo() {
         {list.map((el) => (
           <div key={el.userId} className={`${styles.trend}`}>
             <div className={`${styles.trendA}`}>
+              <div className={`${styles.viewButton}`}>View Product</div>
               <img
                 src={el.fashion}
                 width="239px"
