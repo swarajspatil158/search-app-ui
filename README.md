@@ -1,1 +1,1 @@
-## demo search using react.js and sass
+> Simplified Search UI using **react.js** and **sass**
