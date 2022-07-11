@@ -15,13 +15,6 @@ export default function FakerDemo() {
         fashion: faker.image.fashion(1234, 2345, true),
         prod: faker.commerce.productName(),
         price: faker.commerce.price(500, 3000, 0, "Rs."),
-        dpt: faker.commerce.department(),
-        username: faker.internet.userName(),
-        email: faker.internet.email(),
-        avatar: faker.image.avatar(),
-        password: faker.internet.password(),
-        birthdate: faker.date.birthdate(),
-        registeredAt: faker.date.past(),
       };
     }
     Array.from({ length: 30 }).forEach(() => {

@@ -18,36 +18,38 @@ const LatestTrends = ({ setShowData }) => {
         Hide
       </div>
       <div className={`${styles.header}`}>Latest Trends</div>
-      <div className={`${styles.trendFlex}`}>
-        <div className={`${styles.trend}`}>
-          <div className={`${styles.trendA}`}>
+      <div className={`${styles.trendContainer}`}>
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardImg}`}>
             <img src={trend1} alt="trend1" />
           </div>
-          <div className={`${styles.trendB}`}>Shirt with puffed sleeves</div>
+          <div className={`${styles.cardContent}`}>
+            Shirt with puffed sleeves
+          </div>
         </div>
-        <div className={`${styles.trend}`}>
-          <div className={`${styles.trendA}`}>
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardImg}`}>
             <img src={trend2} alt="trend2" />
           </div>
-          <div className={`${styles.trendB}`}>Linen jumpsuit</div>
+          <div className={`${styles.cardContent}`}>Linen jumpsuit</div>
         </div>
-        <div className={`${styles.trend}`}>
-          <div className={`${styles.trendA}`}>
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardImg}`}>
             <img src={trend3} alt="trend3" />
           </div>
-          <div className={`${styles.trendB}`}>Linen jumpsuit</div>
+          <div className={`${styles.cardContent}`}>Linen jumpsuit</div>
         </div>
-        <div className={`${styles.trend}`}>
-          <div className={`${styles.trendA}`}>
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardImg}`}>
             <img src={trend4} alt="trend4" />
           </div>
-          <div className={`${styles.trendB}`}>Pattern dresses</div>
+          <div className={`${styles.cardContent}`}>Pattern dresses</div>
         </div>
-        <div className={`${styles.trend}`}>
-          <div className={`${styles.trendA}`}>
+        <div className={`${styles.card}`}>
+          <div className={`${styles.cardImg}`}>
             <img src={trend5} alt="trend5" />
           </div>
-          <div className={`${styles.trendB}`}>Leather shirt dress</div>
+          <div className={`${styles.cardContent}`}>Leather shirt dress</div>
         </div>
       </div>
       <div className={`${styles.header}`}>Popular suggestions</div>
